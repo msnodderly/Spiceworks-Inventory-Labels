@@ -1,0 +1,10 @@
+Matt Snodderly
+5/10/11
+
+Usage: python makelabels.py  > names.dat && pdflatex labels.tex
+
+Uses pdflatex and Google chart API to create labels with asset info and 
+a 2D QR code link to the item in Spiceworks. 
+
+Works with Avery 5160 labels. Assumes that a copy Spiceworks sqlite db 
+is in the current directory (spiceworks_prod.
